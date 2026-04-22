@@ -17,7 +17,11 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            anim.SetTrigger("Attack");
+            anim.SetTrigger("Sword_Attack");
+        }
+        else if(Input.GetKeyDown(KeyCode.X))
+        {
+            anim.SetTrigger("Bow_Attack");
         }
     }
 }
