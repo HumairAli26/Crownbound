@@ -1,8 +1,10 @@
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class Character_Attacks : MonoBehaviour
 {
     Animator anim;
+    public Transform launchOffSet; 
+    public Projectile_Behaviour projectilePrefab;
 
     void Start()
     {
@@ -22,6 +24,12 @@ public class PlayerController : MonoBehaviour
         else if(Input.GetKeyDown(KeyCode.X))
         {
             anim.SetTrigger("Bow_Attack");
+            Invoke("Arrow_Projectile",0.33f);
         }
+    }
+
+    private void Arrow_Projectile() 
+    {
+        Instantiate(projectilePrefab,launchOffSet.position,transform.rotation);
     }
 }

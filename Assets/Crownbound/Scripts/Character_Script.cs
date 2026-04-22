@@ -30,7 +30,7 @@ public class PlayerMove : MonoBehaviour
             sr.flipX = true; // Face left
         }
     }
-    
+
     private void FixedUpdate()
     {
         rb.linearVelocity = new Vector2(move * speed, rb.linearVelocity.y);
