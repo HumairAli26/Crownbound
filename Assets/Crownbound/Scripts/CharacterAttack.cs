@@ -13,9 +13,8 @@ public class PlayerController : MonoBehaviour
     {
         // Movement example (optional)
         float move = Input.GetAxis("Horizontal");
-        anim.SetBool("isWalking", move != 0);
+        //anim.SetFloat("Speed", Mathf.Abs(move)!=0);
 
-        // Attack when space pressed
         if (Input.GetKeyDown(KeyCode.Space))
         {
             anim.SetTrigger("Attack");

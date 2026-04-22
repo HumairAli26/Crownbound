@@ -1,25 +1,31 @@
 fileFormatVersion: 2
-guid: a9f3e96b866a2ce4cbe0d306924b0352
+guid: 66d650ae9c884814195a3b0cc13e2462
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1165978513691970894
-    second: Sword_Attack_0
+      213: 5875693340753460648
+    second: Jummping_0
   - first:
-      213: -1533991824300220033
-    second: Sword_Attack_1
+      213: -7387089625261641613
+    second: Jummping_1
   - first:
-      213: 216730299262444306
-    second: Sword_Attack_2
+      213: -9014258980577084246
+    second: Jummping_2
   - first:
-      213: -1277508359865639099
-    second: Sword_Attack_3
+      213: -2268042039917746932
+    second: Jummping_3
   - first:
-      213: -8847815654209570793
-    second: Sword_Attack_4
+      213: 7666225080680621588
+    second: Jummping_4
   - first:
-      213: -3807203303854748451
-    second: Sword_Attack_5
+      213: 2585584085180069315
+    second: Jummping_5
+  - first:
+      213: -5598245164321259525
+    second: Jummping_6
+  - first:
+      213: 7305314828701328832
+    second: Jummping_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -167,133 +173,177 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sword_Attack_0
+      name: Jummping_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 226
-        width: 127
-        height: 145
+        x: 31
+        y: 229
+        width: 86
+        height: 134
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b2f6ab28bc91dfe0800000000000000
-      internalID: -1165978513691970894
+      spriteID: 8adfcb076f7aa8150800000000000000
+      internalID: 5875693340753460648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sword_Attack_1
+      name: Jummping_1
       rect:
         serializedVersion: 2
-        x: 152
-        y: 226
-        width: 132
-        height: 145
+        x: 165
+        y: 230
+        width: 95
+        height: 107
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f716b30309a26bae0800000000000000
-      internalID: -1533991824300220033
+      spriteID: 3707e42df19cb7990800000000000000
+      internalID: -7387089625261641613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sword_Attack_2
+      name: Jummping_2
       rect:
         serializedVersion: 2
-        x: 286
-        y: 226
-        width: 134
-        height: 147
+        x: 313
+        y: 231
+        width: 101
+        height: 135
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2132a931f0bf10300800000000000000
-      internalID: 216730299262444306
+      spriteID: aacf35d773be6e280800000000000000
+      internalID: -9014258980577084246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sword_Attack_3
+      name: Jummping_3
       rect:
         serializedVersion: 2
-        x: 433
-        y: 226
-        width: 149
-        height: 156
+        x: 468
+        y: 260
+        width: 83
+        height: 116
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 54fdd9c4ae0654ee0800000000000000
-      internalID: -1277508359865639099
+      spriteID: c05ec0308cb4680e0800000000000000
+      internalID: -2268042039917746932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sword_Attack_4
+      name: Jummping_4
       rect:
         serializedVersion: 2
-        x: 8
-        y: 40
-        width: 158
-        height: 144
+        x: 21
+        y: 83
+        width: 106
+        height: 105
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 718b2bc4a8e363580800000000000000
-      internalID: -8847815654209570793
+      spriteID: 416a82ee717e36a60800000000000000
+      internalID: 7666225080680621588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sword_Attack_5
+      name: Jummping_5
       rect:
         serializedVersion: 2
-        x: 144
-        y: 29
-        width: 464
-        height: 153
+        x: 162
+        y: 67
+        width: 96
+        height: 108
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 5, z: 1, w: 0}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ddc4b0e34c81a2bc0800000000000000
-      internalID: -3807203303854748451
+      spriteID: 3c5bf06c607d1e320800000000000000
+      internalID: 2585584085180069315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jummping_6
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 46
+        width: 108
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff351f0fa90f42b0800000000000000
+      internalID: -5598245164321259525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jummping_7
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 45
+        width: 80
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5e229a121b16560800000000000000
+      internalID: 7305314828701328832
       vertices: []
       indices: 
       edges: []
@@ -302,7 +352,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 25011aaab148d6c46b094c9c9af0407f
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -312,12 +362,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Sword_Attack_0: -1165978513691970894
-      Sword_Attack_1: -1533991824300220033
-      Sword_Attack_2: 216730299262444306
-      Sword_Attack_3: -1277508359865639099
-      Sword_Attack_4: -8847815654209570793
-      Sword_Attack_5: -3807203303854748451
+      Jummping_0: 5875693340753460648
+      Jummping_1: -7387089625261641613
+      Jummping_2: -9014258980577084246
+      Jummping_3: -2268042039917746932
+      Jummping_4: 7666225080680621588
+      Jummping_5: 2585584085180069315
+      Jummping_6: -5598245164321259525
+      Jummping_7: 7305314828701328832
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

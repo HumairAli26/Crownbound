@@ -20,11 +20,7 @@ public class PlayerMove : MonoBehaviour
     void Update()
     {
         move = Input.GetAxis("Horizontal");
-
-        // Animation
         am.SetFloat("Speed", Mathf.Abs(move));
-
-        // ✅ Flip character based on direction
         if (move > 0)
         {
             sr.flipX = false; // Face right
@@ -34,7 +30,7 @@ public class PlayerMove : MonoBehaviour
             sr.flipX = true; // Face left
         }
     }
-
+    
     private void FixedUpdate()
     {
         rb.linearVelocity = new Vector2(move * speed, rb.linearVelocity.y);
