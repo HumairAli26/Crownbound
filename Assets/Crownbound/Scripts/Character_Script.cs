@@ -8,30 +8,35 @@ public class PlayerMove : MonoBehaviour
     private Rigidbody2D rb;
     private SpriteRenderer sr;
 
+    public static bool facingRight = true; // shared direction for other scripts
+
     private float move;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         am = GetComponent<Animator>();
-        sr = GetComponent<SpriteRenderer>(); // ✅ added
+        sr = GetComponent<SpriteRenderer>();
     }
 
     void Update()
     {
         move = Input.GetAxis("Horizontal");
+
+        // animation
         am.SetFloat("Speed", Mathf.Abs(move));
+
+        // facing direction (IMPORTANT FIX)
         if (move > 0)
-        {
-            sr.flipX = false; // Face right
-        }
+            facingRight = true;
         else if (move < 0)
-        {
-            sr.flipX = true; // Face left
-        }
+            facingRight = false;
+
+        // flip sprite
+        sr.flipX = !facingRight;
     }
 
-    private void FixedUpdate()
+    void FixedUpdate()
     {
         rb.linearVelocity = new Vector2(move * speed, rb.linearVelocity.y);
     }

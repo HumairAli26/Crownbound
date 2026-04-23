@@ -2,13 +2,24 @@ using UnityEngine;
 
 public class Projectile_Behaviour : MonoBehaviour
 {
-    public float Speed = 8f;
-    private void Update()
+    public float speed = 10f;
+
+    private float direction;
+
+    public void SetDirection(float dir)
     {
-        transform.position += transform.right * Time.deltaTime * Speed;
+        direction = dir;
+
+        // flip visual
+        transform.localScale = new Vector3(dir, 1, 1);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    void Update()
+    {
+        transform.position += Vector3.right * direction * speed * Time.deltaTime;
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
     {
         Destroy(gameObject);
     }

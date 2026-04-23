@@ -3,33 +3,60 @@ using UnityEngine;
 public class Character_Attacks : MonoBehaviour
 {
     Animator anim;
-    public Transform launchOffSet; 
+
+    public Transform launchOffSet;
     public Projectile_Behaviour projectilePrefab;
+
+    private Vector3 originalOffset;
 
     void Start()
     {
         anim = GetComponent<Animator>();
+
+        // store original RIGHT position of launch point
+        originalOffset = launchOffSet.localPosition;
     }
 
     void Update()
     {
-        // Movement example (optional)
-        float move = Input.GetAxis("Horizontal");
-        //anim.SetFloat("Speed", Mathf.Abs(move)!=0);
-
+        // Sword attack
         if (Input.GetKeyDown(KeyCode.Space))
         {
             anim.SetTrigger("Sword_Attack");
         }
-        else if(Input.GetKeyDown(KeyCode.X))
+
+        // Bow attack
+        if (Input.GetKeyDown(KeyCode.X))
         {
             anim.SetTrigger("Bow_Attack");
-            Invoke("Arrow_Projectile",0.33f);
+            Invoke(nameof(Arrow_Projectile), 0.35f);
+        }
+
+        UpdateLaunchOffset();
+    }
+
+    void UpdateLaunchOffset()
+    {
+        if (PlayerMove.facingRight)
+        {
+            launchOffSet.localPosition = originalOffset;
+        }
+        else
+        {
+            launchOffSet.localPosition = new Vector3(
+                -originalOffset.x,
+                originalOffset.y,
+                originalOffset.z
+            );
         }
     }
 
-    private void Arrow_Projectile() 
+    void Arrow_Projectile()
     {
-        Instantiate(projectilePrefab,launchOffSet.position,transform.rotation);
+        Projectile_Behaviour arrow =
+            Instantiate(projectilePrefab, launchOffSet.position, Quaternion.identity);
+
+        float dir = PlayerMove.facingRight ? 1f : -1f;
+        arrow.SetDirection(dir);
     }
 }
