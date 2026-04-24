@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Jumping : MonoBehaviour
 {
-    public float jumpForce = 5f;
+    public float jumpForce = 10f;
     public bool isOnGround = true;
 
     private Rigidbody2D rb;
@@ -18,8 +18,8 @@ public class Jumping : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.UpArrow) && isOnGround)
         {
-            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             anim.SetTrigger("Jump");
+            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             isOnGround = false;
         }
     }

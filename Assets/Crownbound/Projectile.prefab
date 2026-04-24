@@ -201,4 +201,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c5d43e6b25ea454fb76d34d7fd0b841, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Projectile_Behaviour
-  speed: 10
+  speed: 20
