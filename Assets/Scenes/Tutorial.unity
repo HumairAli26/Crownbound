@@ -1277,7 +1277,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!1 &2137575644
+--- !u!1 &2094372747
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1285,9 +1285,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2137575646}
-  - component: {fileID: 2137575645}
-  - component: {fileID: 2137575647}
+  - component: {fileID: 2094372750}
+  - component: {fileID: 2094372749}
+  - component: {fileID: 2094372748}
   m_Layer: 0
   m_Name: NextScene_Loader
   m_TagString: Untagged
@@ -1295,13 +1295,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &2137575645
+--- !u!114 &2094372748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094372747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3823699059a21ec40800618d1dfdb343, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Scene_Changer
+--- !u!61 &2094372749
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2137575644}
+  m_GameObject: {fileID: 2094372747}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
@@ -1341,13 +1353,13 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.10905361, y: 9.040907}
   m_EdgeRadius: 0
---- !u!4 &2137575646
+--- !u!4 &2094372750
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2137575644}
+  m_GameObject: {fileID: 2094372747}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 11.7, y: -3.54, z: 0}
@@ -1356,18 +1368,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2137575647
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2137575644}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3823699059a21ec40800618d1dfdb343, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Scene_Changer
 --- !u!1001 &2591891172342207992
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1443,4 +1443,4 @@ SceneRoots:
   - {fileID: 1047706117}
   - {fileID: 2591891172342207992}
   - {fileID: 487079910}
-  - {fileID: 2137575646}
+  - {fileID: 2094372750}
