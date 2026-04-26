@@ -182,10 +182,10 @@ TextureImporter:
       name: Shadow_Wolf_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 13
-        width: 79
-        height: 60
+        x: 7
+        y: 219
+        width: 125
+        height: 136
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +204,10 @@ TextureImporter:
       name: Shadow_Wolf_1
       rect:
         serializedVersion: 2
-        x: 116
-        y: 12
-        width: 81
-        height: 61
+        x: 154
+        y: 238
+        width: 131
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,10 +226,10 @@ TextureImporter:
       name: Shadow_Wolf_2
       rect:
         serializedVersion: 2
-        x: 212
-        y: 13
-        width: 82
-        height: 60
+        x: 300
+        y: 241
+        width: 142
+        height: 93
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,10 +248,10 @@ TextureImporter:
       name: Shadow_Wolf_3
       rect:
         serializedVersion: 2
-        x: 307
-        y: 12
-        width: 85
-        height: 61
+        x: 441
+        y: 238
+        width: 161
+        height: 74
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,10 +270,10 @@ TextureImporter:
       name: Shadow_Wolf_4
       rect:
         serializedVersion: 2
-        x: 408
-        y: 13
-        width: 98
-        height: 61
+        x: 233
+        y: 216
+        width: 7
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,10 +292,10 @@ TextureImporter:
       name: Shadow_Wolf_5
       rect:
         serializedVersion: 2
-        x: 523
-        y: 13
-        width: 115
-        height: 60
+        x: 12
+        y: 81
+        width: 142
+        height: 86
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,10 +314,10 @@ TextureImporter:
       name: Shadow_Wolf_6
       rect:
         serializedVersion: 2
-        x: 654
-        y: 13
+        x: 170
+        y: 82
         width: 114
-        height: 58
+        height: 115
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,10 +336,10 @@ TextureImporter:
       name: Shadow_Wolf_7
       rect:
         serializedVersion: 2
-        x: 780
-        y: 11
-        width: 104
-        height: 62
+        x: 298
+        y: 81
+        width: 123
+        height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,10 +358,10 @@ TextureImporter:
       name: Shadow_Wolf_8
       rect:
         serializedVersion: 2
-        x: 889
-        y: 11
-        width: 118
-        height: 55
+        x: 447
+        y: 81
+        width: 132
+        height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,10 +380,10 @@ TextureImporter:
       name: Shadow_Wolf_9
       rect:
         serializedVersion: 2
-        x: 1033
-        y: 10
-        width: 97
-        height: 53
+        x: 577
+        y: 84
+        width: 15
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -28,4 +28,4 @@ public class Jumping : MonoBehaviour
     {
         isOnGround = true;
     }
-}
+}//Use arrow keys to move and jump
