@@ -40,9 +40,4 @@ public class PlayerMove : MonoBehaviour
     {
         rb.linearVelocity = new Vector2(move * speed, rb.linearVelocity.y);
     }
-
-    private void Awake() 
-    {
-        DontDestroyOnLoad(gameObject);
-    }
 }
