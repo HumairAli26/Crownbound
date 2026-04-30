@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Jumping : MonoBehaviour
 {
-    public float jumpForce = 8f;
+    public float jumpForce = 16f;
     public bool isOnGround = true;
 
     private Rigidbody2D rb;

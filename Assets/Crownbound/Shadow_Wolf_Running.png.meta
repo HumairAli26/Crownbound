@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: 4f13272f3ac443d4880206ad45263ca8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2084536084699616596
+    second: Shadow_Wolf_Running_0
+  - first:
+      213: -991849515127887008
+    second: Shadow_Wolf_Running_1
+  - first:
+      213: 94057471436282221
+    second: Shadow_Wolf_Running_2
+  - first:
+      213: -541150456516174000
+    second: Shadow_Wolf_Running_3
+  - first:
+      213: -4407054524716618248
+    second: Shadow_Wolf_Running_4
+  - first:
+      213: 7773824775125345416
+    second: Shadow_Wolf_Running_5
+  - first:
+      213: -2174939528639630878
+    second: Shadow_Wolf_Running_6
+  - first:
+      213: 2686753662935950773
+    second: Shadow_Wolf_Running_7
+  - first:
+      213: -3739613946397468201
+    second: Shadow_Wolf_Running_8
+  - first:
+      213: -1719598643300689340
+    second: Shadow_Wolf_Running_9
+  - first:
+      213: -735439740993788902
+    second: Shadow_Wolf_Running_10
+  - first:
+      213: -4519897855924359878
+    second: Shadow_Wolf_Running_11
+  - first:
+      213: -3235464579683768147
+    second: Shadow_Wolf_Running_12
+  - first:
+      213: 4329534328612748304
+    second: Shadow_Wolf_Running_13
+  - first:
+      213: 6075104663128511866
+    second: Shadow_Wolf_Running_14
+  - first:
+      213: 6404199794566486838
+    second: Shadow_Wolf_Running_15
+  - first:
+      213: -94605163942623975
+    second: Shadow_Wolf_Running_16
+  - first:
+      213: -5545430407469057072
+    second: Shadow_Wolf_Running_17
+  - first:
+      213: -517084818410990757
+    second: Shadow_Wolf_Running_18
+  - first:
+      213: -2113809757297185847
+    second: Shadow_Wolf_Running_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Shadow_Wolf_Running_0
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 297
+        width: 77
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45511025682cdec10800000000000000
+      internalID: 2084536084699616596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Wolf_Running_1
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 312
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ba82cfe1e3c32f0800000000000000
+      internalID: -991849515127887008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Wolf_Running_2
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 312
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d695e6d95c82e4100800000000000000
+      internalID: 94057471436282221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Wolf_Running_3
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 312
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f1055e6827d78f0800000000000000
+      internalID: -541150456516174000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Wolf_Running_4
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 312
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fdec74624ff6d2c0800000000000000
+      internalID: -4407054524716618248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Wolf_Running_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 312
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8842a7b027c22eb60800000000000000
+      internalID: 7773824775125345416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Wolf_Running_6
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 312
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1ba73a50011d1e0800000000000000
+      internalID: -2174939528639630878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Wolf_Running_7
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 312
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5e64ea834494520800000000000000
+      internalID: 2686753662935950773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Wolf_Running_8
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 312
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9d1e7dde83a1cc0800000000000000
+      internalID: -3739613946397468201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Wolf_Running_9
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 312
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a91dd0522c228e0800000000000000
+      internalID: -1719598643300689340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Wolf_Running_10
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 312
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a142c5cb3713bc5f0800000000000000
+      internalID: -735439740993788902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Wolf_Running_11
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 297
+        width: 77
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d2494f8d81641c0800000000000000
+      internalID: -4519897855924359878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Wolf_Running_12
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 295
+        width: 58
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da827946b125913d0800000000000000
+      internalID: -3235464579683768147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Wolf_Running_13
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 283
+        width: 110
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c72d37888951c30800000000000000
+      internalID: 4329534328612748304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Wolf_Running_14
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 295
+        width: 74
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a75181bf08b1f4450800000000000000
+      internalID: 6075104663128511866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Wolf_Running_15
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 294
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63bd3c148c940e850800000000000000
+      internalID: 6404199794566486838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Wolf_Running_16
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 295
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9154849ca15efaef0800000000000000
+      internalID: -94605163942623975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Wolf_Running_17
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 294
+        width: 54
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db3824ec6caa03b0800000000000000
+      internalID: -5545430407469057072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Wolf_Running_18
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 11
+        width: 176
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b539dd7e812f2d8f0800000000000000
+      internalID: -517084818410990757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shadow_Wolf_Running_19
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 10
+        width: 519
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cbeb85a93d3aa2e0800000000000000
+      internalID: -2113809757297185847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Shadow_Wolf_Running_0: 2084536084699616596
+      Shadow_Wolf_Running_1: -991849515127887008
+      Shadow_Wolf_Running_10: -735439740993788902
+      Shadow_Wolf_Running_11: -4519897855924359878
+      Shadow_Wolf_Running_12: -3235464579683768147
+      Shadow_Wolf_Running_13: 4329534328612748304
+      Shadow_Wolf_Running_14: 6075104663128511866
+      Shadow_Wolf_Running_15: 6404199794566486838
+      Shadow_Wolf_Running_16: -94605163942623975
+      Shadow_Wolf_Running_17: -5545430407469057072
+      Shadow_Wolf_Running_18: -517084818410990757
+      Shadow_Wolf_Running_19: -2113809757297185847
+      Shadow_Wolf_Running_2: 94057471436282221
+      Shadow_Wolf_Running_3: -541150456516174000
+      Shadow_Wolf_Running_4: -4407054524716618248
+      Shadow_Wolf_Running_5: 7773824775125345416
+      Shadow_Wolf_Running_6: -2174939528639630878
+      Shadow_Wolf_Running_7: 2686753662935950773
+      Shadow_Wolf_Running_8: -3739613946397468201
+      Shadow_Wolf_Running_9: -1719598643300689340
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
