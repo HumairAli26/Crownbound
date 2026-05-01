@@ -26,12 +26,6 @@ TextureImporter:
   - first:
       213: -5634925947908771552
     second: Shadow_Wolf_7
-  - first:
-      213: 356078728426825015
-    second: Shadow_Wolf_8
-  - first:
-      213: -6933902639648748221
-    second: Shadow_Wolf_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -111,7 +105,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: iOS
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -124,7 +118,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
+    buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -150,7 +144,33 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -182,10 +202,10 @@ TextureImporter:
       name: Shadow_Wolf_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 219
-        width: 125
-        height: 136
+        x: 11
+        y: 197
+        width: 147
+        height: 119
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +224,10 @@ TextureImporter:
       name: Shadow_Wolf_1
       rect:
         serializedVersion: 2
-        x: 154
-        y: 238
-        width: 131
-        height: 99
+        x: 180
+        y: 197
+        width: 142
+        height: 116
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,10 +246,10 @@ TextureImporter:
       name: Shadow_Wolf_2
       rect:
         serializedVersion: 2
-        x: 300
-        y: 241
-        width: 142
-        height: 93
+        x: 367
+        y: 198
+        width: 133
+        height: 134
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,10 +268,10 @@ TextureImporter:
       name: Shadow_Wolf_3
       rect:
         serializedVersion: 2
-        x: 441
-        y: 238
-        width: 161
-        height: 74
+        x: 535
+        y: 198
+        width: 147
+        height: 116
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,10 +290,10 @@ TextureImporter:
       name: Shadow_Wolf_4
       rect:
         serializedVersion: 2
-        x: 233
-        y: 216
-        width: 7
-        height: 8
+        x: 11
+        y: 33
+        width: 156
+        height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,10 +312,10 @@ TextureImporter:
       name: Shadow_Wolf_5
       rect:
         serializedVersion: 2
-        x: 12
-        y: 81
-        width: 142
-        height: 86
+        x: 191
+        y: 33
+        width: 135
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,10 +334,10 @@ TextureImporter:
       name: Shadow_Wolf_6
       rect:
         serializedVersion: 2
-        x: 170
-        y: 82
-        width: 114
-        height: 115
+        x: 372
+        y: 33
+        width: 103
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,10 +356,10 @@ TextureImporter:
       name: Shadow_Wolf_7
       rect:
         serializedVersion: 2
-        x: 298
-        y: 81
-        width: 123
-        height: 77
+        x: 530
+        y: 33
+        width: 132
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,50 +370,6 @@ TextureImporter:
       bones: []
       spriteID: 021344b94b8bcc1b0800000000000000
       internalID: -5634925947908771552
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shadow_Wolf_8
-      rect:
-        serializedVersion: 2
-        x: 447
-        y: 81
-        width: 132
-        height: 77
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 73524f787bb01f400800000000000000
-      internalID: 356078728426825015
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shadow_Wolf_9
-      rect:
-        serializedVersion: 2
-        x: 577
-        y: 84
-        width: 15
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 34dc7906944d5cf90800000000000000
-      internalID: -6933902639648748221
       vertices: []
       indices: 
       edges: []
@@ -420,8 +396,6 @@ TextureImporter:
       Shadow_Wolf_5: 7423994701185796350
       Shadow_Wolf_6: 8541703297879698008
       Shadow_Wolf_7: -5634925947908771552
-      Shadow_Wolf_8: 356078728426825015
-      Shadow_Wolf_9: -6933902639648748221
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
