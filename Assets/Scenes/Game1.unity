@@ -307,6 +307,7 @@ GameObject:
   - component: {fileID: 1488768673}
   - component: {fileID: 1488768672}
   - component: {fileID: 1488768671}
+  - component: {fileID: 1488768676}
   m_Layer: 0
   m_Name: Shadow_Wolf_0
   m_TagString: Untagged
@@ -460,7 +461,7 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_Sprite: {fileID: 6935849481745771421, guid: 87e2b88460b89344ebda68387f2e1bc7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1.25, y: 1.36}
@@ -483,6 +484,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1488768676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488768670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81bdf6993fc2e6b4f84cf98c9e0aadf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShadowWolf
+  player: {fileID: 0}
+  moveSpeed: 3
+  attackDistance: 1.5
 --- !u!1001 &1503284881
 PrefabInstance:
   m_ObjectHideFlags: 0
