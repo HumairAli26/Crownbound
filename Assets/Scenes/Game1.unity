@@ -309,7 +309,7 @@ GameObject:
   - component: {fileID: 1488768671}
   - component: {fileID: 1488768676}
   m_Layer: 0
-  m_Name: Shadow_Wolf_0
+  m_Name: Shadow_Wolf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
