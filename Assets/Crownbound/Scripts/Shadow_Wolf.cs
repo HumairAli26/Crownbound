@@ -3,17 +3,27 @@ using UnityEngine;
 public class ShadowWolf : MonoBehaviour
 {
     public Transform player;
+
     public float moveSpeed = 3f;
-    public float attackDistance = 1.5f;
+    public float attackDistance = 2f;
+
     private Rigidbody2D rb;
     private Animator anim;
+
+    private bool isAttacking = false;
+    private float attackCooldown = 1f;
+    private float attackTimer;
+
+    Vector3 originalScale;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        // Automatically find player
+
         player = GameObject.FindGameObjectWithTag("Player").transform;
+
+        originalScale = transform.localScale;
     }
 
     void Update()
@@ -21,27 +31,48 @@ public class ShadowWolf : MonoBehaviour
         if (player == null)
             return;
 
-        float distance = Vector2.Distance(transform.position, player.position);
+        // Attack cooldown timer
+        attackTimer += Time.deltaTime;
 
-        // Move toward player
+        // Horizontal distance only
+        float distance = Mathf.Abs(player.position.x - transform.position.x);
+
+        // Flip toward player
+        if (player.position.x > transform.position.x)
+            transform.localScale =
+                new Vector3(originalScale.x, originalScale.y, originalScale.z);
+        else
+            transform.localScale =
+                new Vector3(-originalScale.x, originalScale.y, originalScale.z);
+
+        // If player is far → chase
         if (distance > attackDistance)
         {
-            Vector2 direction = (player.position - transform.position).normalized;
-            rb.linearVelocity = new Vector2(direction.x * moveSpeed, rb.linearVelocity.y);
-            anim.SetBool("Run", true);
+            isAttacking = false;
 
-            // Flip enemy
-            if (direction.x > 0)
-                transform.localScale = new Vector3(1, 1, 1);
-            else if (direction.x < 0)
-                transform.localScale = new Vector3(-1, 1, 1);
+            float direction =
+                Mathf.Sign(player.position.x - transform.position.x);
+
+            rb.linearVelocity =
+                new Vector2(direction * moveSpeed, rb.linearVelocity.y);
+
+            anim.SetBool("Run", true);
         }
         else
         {
-            // Stop and attack
-            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+            // Stop moving near player
+            rb.linearVelocity =
+                new Vector2(0, rb.linearVelocity.y);
+
             anim.SetBool("Run", false);
-            anim.SetTrigger("Attack");
+
+            // Attack with cooldown
+            if (attackTimer >= attackCooldown)
+            {
+                attackTimer = 0;
+
+                anim.SetTrigger("Attack");
+            }
         }
     }
 }
