@@ -5,7 +5,7 @@ public class ShadowWolf : MonoBehaviour
     public Transform player;
 
     public float moveSpeed = 3f;
-    public float attackDistance = 0.5f;
+    public float attackDistance = 3.5f;
 
     private Rigidbody2D rb;
     private Animator anim;
