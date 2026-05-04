@@ -3,6 +3,8 @@ using UnityEngine;
 public class Character_Attacks : MonoBehaviour
 {
     Animator anim;
+    
+    private float sword_attack=25;
 
     public Transform launchOffSet;
     public Projectile_Behaviour projectilePrefab;

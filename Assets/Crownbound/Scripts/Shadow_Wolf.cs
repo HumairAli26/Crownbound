@@ -4,6 +4,7 @@ public class ShadowWolf : MonoBehaviour
 {
     public Transform player;
 
+    public float health =50f;
     public float moveSpeed = 3f;
     public float attackDistance = 3.5f;
 
