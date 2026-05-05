@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Projectile_Behaviour : MonoBehaviour
 {
-    private float damage=20f;
+    private float damage = 20f;
     public float speed = 20f;
 
     private float direction;
@@ -10,8 +10,7 @@ public class Projectile_Behaviour : MonoBehaviour
     public void SetDirection(float dir)
     {
         direction = dir;
-
-        // flip visual
+        // Flip visual
         transform.localScale = new Vector3(dir, 1, 1);
     }
 
@@ -22,6 +21,17 @@ public class Projectile_Behaviour : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
+        // Check if enemy was hit
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            // Access enemy script
+            ShadowWolf wolf = collision.gameObject.GetComponent<ShadowWolf>();
+            // Damage enemy
+            if (wolf != null)
+            {
+                wolf.TakeDamage(damage);
+            }
+        }
         Destroy(gameObject);
     }
 }

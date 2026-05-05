@@ -41,4 +41,8 @@ public class PlayerMove : MonoBehaviour
     {
         rb.linearVelocity = new Vector2(move * speed, rb.linearVelocity.y);
     }
+    void TakeDamage(int damage)
+    {
+        
+    }
 }

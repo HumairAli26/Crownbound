@@ -76,4 +76,8 @@ public class ShadowWolf : MonoBehaviour
             }
         }
     }
+    void takeDamage(int damage)
+    {
+        
+    }
 }
