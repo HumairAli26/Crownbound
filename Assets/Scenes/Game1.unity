@@ -760,6 +760,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shadow_Wolf
       objectReference: {fileID: 0}
+    - target: {fileID: 7215978106874690641, guid: f76fac3bbf83b8e4192315e81a47a18e, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

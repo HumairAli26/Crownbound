@@ -4,7 +4,8 @@ public class ShadowWolf : MonoBehaviour
 {
     public Transform player;
 
-    public float health =50f;
+    public float maxHealth = 100f;
+    private float currentHealth;
     public float moveSpeed = 3f;
     public float attackDistance = 3.5f;
 
@@ -19,6 +20,7 @@ public class ShadowWolf : MonoBehaviour
 
     void Start()
     {
+        currentHealth = maxHealth;
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 
@@ -76,8 +78,20 @@ public class ShadowWolf : MonoBehaviour
             }
         }
     }
-    void takeDamage(int damage)
+    public void TakeDamage(float damage)
     {
-        
+        currentHealth -= damage;
+        Debug.Log("Wolf Health: " + currentHealth);
+        // Death check
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+    void Die()
+    {
+        Debug.Log("Shadow Wolf Died");
+        Destroy(gameObject);
     }
 }
