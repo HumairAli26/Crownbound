@@ -24,12 +24,11 @@ public class Projectile_Behaviour : MonoBehaviour
         // Check if enemy was hit
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            // Access enemy script
-            ShadowWolf wolf = collision.gameObject.GetComponent<ShadowWolf>();
-            // Damage enemy
-            if (wolf != null)
+            // Access enemyHealth script
+            EnemyHealth enemyHealth = collision.gameObject.GetComponent<EnemyHealth>();
+            if (enemyHealth != null)
             {
-                wolf.TakeDamage(damage);
+                enemyHealth.TakeDamage(damage);
             }
         }
         Destroy(gameObject);
