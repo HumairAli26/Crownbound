@@ -3,8 +3,12 @@ using UnityEngine;
 public class Character_Attacks : MonoBehaviour
 {
     Animator anim;
-    
-    private float sword_attack=25;
+    public Transform attackPoint;
+
+    public float attackRange = 1f;
+    public float swordDamage = 20f;
+
+    public LayerMask enemyLayers;
 
     public Transform launchOffSet;
     public Projectile_Behaviour projectilePrefab;
@@ -25,6 +29,8 @@ public class Character_Attacks : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             anim.SetTrigger("Sword_Attack");
+            Attack();
+
         }
 
         // Bow attack
@@ -60,5 +66,37 @@ public class Character_Attacks : MonoBehaviour
 
         float dir = PlayerMove.facingRight ? 1f : -1f;
         arrow.SetDirection(dir);
+    }
+
+    void Attack()
+    {
+        Collider2D[] hitEnemies =
+            Physics2D.OverlapCircleAll(
+                attackPoint.position,
+                attackRange,
+                enemyLayers
+            );
+
+        foreach (Collider2D enemy in hitEnemies)
+        {
+            EnemyHealth enemyHealth =
+                enemy.GetComponent<EnemyHealth>();
+
+            if (enemyHealth != null)
+            {
+                enemyHealth.TakeDamage(swordDamage);
+            }
+        }
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        if (attackPoint == null)
+            return;
+
+        Gizmos.DrawWireSphere(
+            attackPoint.position,
+            attackRange
+        );
     }
 }
