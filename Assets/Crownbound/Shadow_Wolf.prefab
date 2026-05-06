@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 1050740845535104102}
   - component: {fileID: 3124282566750134090}
   - component: {fileID: 5832775529610438196}
-  m_Layer: 0
+  - component: {fileID: 4039094018357079493}
+  m_Layer: 3
   m_Name: Shadow_Wolf
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -203,5 +204,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShadowWolf
   player: {fileID: 0}
+  maxHealth: 100
   moveSpeed: 3
   attackDistance: 3.5
+--- !u!114 &4039094018357079493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7215978106874690641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d17cbb20354b40d4da89ca6f8f907bf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
