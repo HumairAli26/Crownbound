@@ -4,8 +4,6 @@ public class ShadowWolf : MonoBehaviour
 {
     public Transform player;
 
-    public float maxHealth = 100f;
-    private float currentHealth;
     public float moveSpeed = 3f;
     public float attackDistance = 3.5f;
 
@@ -20,7 +18,6 @@ public class ShadowWolf : MonoBehaviour
 
     void Start()
     {
-        currentHealth = maxHealth;
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 
@@ -42,11 +39,9 @@ public class ShadowWolf : MonoBehaviour
 
         // Flip toward player
         if (player.position.x > transform.position.x)
-            transform.localScale =
-                new Vector3(originalScale.x, originalScale.y, originalScale.z);
+            transform.localScale = new Vector3(originalScale.x, originalScale.y, originalScale.z);
         else
-            transform.localScale =
-                new Vector3(-originalScale.x, originalScale.y, originalScale.z);
+            transform.localScale = new Vector3(-originalScale.x, originalScale.y, originalScale.z);
 
         // If player is far → chase
         if (distance > attackDistance)
@@ -77,21 +72,5 @@ public class ShadowWolf : MonoBehaviour
                 anim.SetTrigger("Attack");
             }
         }
-    }
-    public void TakeDamage(float damage)
-    {
-        currentHealth -= damage;
-        Debug.Log("Wolf Health: " + currentHealth);
-        // Death check
-        if (currentHealth <= 0)
-        {
-            Die();
-        }
-    }
-
-    void Die()
-    {
-        Debug.Log("Shadow Wolf Died");
-        Destroy(gameObject);
     }
 }
