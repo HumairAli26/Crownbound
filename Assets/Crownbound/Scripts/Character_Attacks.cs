@@ -45,7 +45,7 @@ public class Character_Attacks : MonoBehaviour
 
     void UpdateLaunchOffset()
     {
-        if (PlayerMove.facingRight)
+        if (Character_Script.facingRight)
         {
             launchOffSet.localPosition = originalOffset;
         }
@@ -64,7 +64,7 @@ public class Character_Attacks : MonoBehaviour
         Projectile_Behaviour arrow =
             Instantiate(projectilePrefab, launchOffSet.position, Quaternion.identity);
 
-        float dir = PlayerMove.facingRight ? 1f : -1f;
+        float dir = Character_Script.facingRight ? 1f : -1f;
         arrow.SetDirection(dir);
     }
 

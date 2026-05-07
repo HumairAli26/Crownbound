@@ -10,18 +10,20 @@ public class ShadowWolf : MonoBehaviour
     private Rigidbody2D rb;
     private Animator anim;
 
-    private bool isAttacking = false;
-    private float attackCooldown = 1f;
-    private float attackTimer;
+    private EnemyAttack enemyAttack;
 
-    Vector3 originalScale;
+    private Vector3 originalScale;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+
         anim = GetComponent<Animator>();
 
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        enemyAttack = GetComponent<EnemyAttack>();
+
+        player =
+            GameObject.FindGameObjectWithTag("Player").transform;
 
         originalScale = transform.localScale;
     }
@@ -31,46 +33,63 @@ public class ShadowWolf : MonoBehaviour
         if (player == null)
             return;
 
-        // Attack cooldown timer
-        attackTimer += Time.deltaTime;
-
         // Horizontal distance only
-        float distance = Mathf.Abs(player.position.x - transform.position.x);
+        float distance =
+            Mathf.Abs(player.position.x - transform.position.x);
 
-        // Flip toward player
-        if (player.position.x > transform.position.x)
-            transform.localScale = new Vector3(originalScale.x, originalScale.y, originalScale.z);
-        else
-            transform.localScale = new Vector3(-originalScale.x, originalScale.y, originalScale.z);
+        FlipTowardPlayer();
 
-        // If player is far → chase
+        // Chase player
         if (distance > attackDistance)
         {
-            isAttacking = false;
-
-            float direction =
-                Mathf.Sign(player.position.x - transform.position.x);
-
-            rb.linearVelocity =
-                new Vector2(direction * moveSpeed, rb.linearVelocity.y);
+            MoveTowardPlayer();
 
             anim.SetBool("Run", true);
         }
         else
         {
-            // Stop moving near player
-            rb.linearVelocity =
-                new Vector2(0, rb.linearVelocity.y);
+            StopMovement();
 
             anim.SetBool("Run", false);
 
-            // Attack with cooldown
-            if (attackTimer >= attackCooldown)
-            {
-                attackTimer = 0;
+            enemyAttack.Attack();
+        }
+    }
 
-                anim.SetTrigger("Attack");
-            }
+    void MoveTowardPlayer()
+    {
+        float direction =
+            Mathf.Sign(player.position.x - transform.position.x);
+
+        rb.linearVelocity =
+            new Vector2(direction * moveSpeed, rb.linearVelocity.y);
+    }
+
+    void StopMovement()
+    {
+        rb.linearVelocity =
+            new Vector2(0, rb.linearVelocity.y);
+    }
+
+    void FlipTowardPlayer()
+    {
+        if (player.position.x > transform.position.x)
+        {
+            transform.localScale =
+                new Vector3(
+                    originalScale.x,
+                    originalScale.y,
+                    originalScale.z
+                );
+        }
+        else
+        {
+            transform.localScale =
+                new Vector3(
+                    -originalScale.x,
+                    originalScale.y,
+                    originalScale.z
+                );
         }
     }
 }

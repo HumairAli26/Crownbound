@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 2338193595012472150}
   - component: {fileID: 8760572039232256295}
   - component: {fileID: 2024646672079238867}
-  - component: {fileID: 3742293974638291601}
   - component: {fileID: 21998150217910983}
   - component: {fileID: 3510224406115517466}
+  - component: {fileID: 1954571906526363676}
   m_Layer: 0
   m_Name: Character
   m_TagString: Player
@@ -194,20 +194,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &3742293974638291601
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 462236351524527885}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 122068c093860414d8207ab38b0e24cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerMove
-  health: 150
-  speed: 5
 --- !u!114 &21998150217910983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -220,6 +206,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 205fb08689fc6c14f94b8cd7ac7c9d40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  Sword_hitbox: {fileID: 7513358907377216784}
+  attackRange: 1
+  swordDamage: 20
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 8
   launchOffSet: {fileID: 8372353353958823244}
   projectilePrefab: {fileID: 615008009665953815, guid: 9ab8e8e39d343d34daf3d7c2bcc588c4, type: 3}
 --- !u!114 &3510224406115517466
@@ -236,6 +228,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Jumping
   jumpForce: 8
   isOnGround: 1
+--- !u!114 &1954571906526363676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462236351524527885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 122068c093860414d8207ab38b0e24cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMove
+  MAXhealth: 150
+  speed: 5
 --- !u!1 &2658151198474744123
 GameObject:
   m_ObjectHideFlags: 0
@@ -245,7 +251,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7513358907377216784}
-  - component: {fileID: 5860703393040089559}
   m_Layer: 0
   m_Name: Sword_hitbox
   m_TagString: Untagged
@@ -262,58 +267,12 @@ Transform:
   m_GameObject: {fileID: 2658151198474744123}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.54, y: -0.463, z: 0}
+  m_LocalPosition: {x: 0.72, y: -0.53, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7696286549021574379}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &5860703393040089559
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2658151198474744123}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0.11493802, y: 0.012366056}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 0.31037283, y: 0.3011098}
-  m_EdgeRadius: 0
 --- !u!1 &2984434765728551427
 GameObject:
   m_ObjectHideFlags: 0

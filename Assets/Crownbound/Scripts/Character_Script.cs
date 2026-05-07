@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerMove : MonoBehaviour
+public class Character_Script : MonoBehaviour
 {
     public float MAXhealth = 150f;
     private float currentHealth;
