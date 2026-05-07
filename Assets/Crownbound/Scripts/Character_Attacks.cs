@@ -3,7 +3,7 @@ using UnityEngine;
 public class Character_Attacks : MonoBehaviour
 {
     Animator anim;
-    public Transform attackPoint;
+    public Transform Sword_hitbox;
 
     public float attackRange = 1f;
     public float swordDamage = 20f;
@@ -72,7 +72,7 @@ public class Character_Attacks : MonoBehaviour
     {
         Collider2D[] hitEnemies =
             Physics2D.OverlapCircleAll(
-                attackPoint.position,
+                Sword_hitbox.position,
                 attackRange,
                 enemyLayers
             );
@@ -91,11 +91,11 @@ public class Character_Attacks : MonoBehaviour
 
     void OnDrawGizmosSelected()
     {
-        if (attackPoint == null)
+        if (Sword_hitbox == null)
             return;
 
         Gizmos.DrawWireSphere(
-            attackPoint.position,
+            Sword_hitbox.position,
             attackRange
         );
     }

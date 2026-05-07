@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-    public float health = 150f;
+    public float MAXhealth = 150f;
+    private float currentHealth;
     public float speed = 5f;
 
     private Animator am;
@@ -15,6 +16,7 @@ public class PlayerMove : MonoBehaviour
 
     void Start()
     {
+        currentHealth = MAXhealth;
         rb = GetComponent<Rigidbody2D>();
         am = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
@@ -41,8 +43,18 @@ public class PlayerMove : MonoBehaviour
     {
         rb.linearVelocity = new Vector2(move * speed, rb.linearVelocity.y);
     }
-    void TakeDamage(int damage)
+    public void TakeDamage(float damage)
     {
-        
+        currentHealth -= damage;
+        Debug.Log(gameObject.name + " Health: " + currentHealth);
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+    void Die()
+    {
+        Debug.Log(gameObject.name + " Died");
+        Destroy(gameObject);
     }
 }
