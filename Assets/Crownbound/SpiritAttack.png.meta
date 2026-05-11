@@ -56,42 +56,6 @@ TextureImporter:
   - first:
       213: -8893437567713837053
     second: SpiritAttack_17
-  - first:
-      213: 2406004385531551375
-    second: SpiritAttack_18
-  - first:
-      213: 7627658349777804663
-    second: SpiritAttack_19
-  - first:
-      213: 7048378480616291941
-    second: SpiritAttack_20
-  - first:
-      213: -7148986013723448656
-    second: SpiritAttack_21
-  - first:
-      213: 4048885256415781178
-    second: SpiritAttack_22
-  - first:
-      213: 3055256178511234142
-    second: SpiritAttack_23
-  - first:
-      213: 5651282161461365603
-    second: SpiritAttack_24
-  - first:
-      213: 4745030573040620572
-    second: SpiritAttack_25
-  - first:
-      213: -7249375000815197356
-    second: SpiritAttack_26
-  - first:
-      213: 2871341830129836927
-    second: SpiritAttack_27
-  - first:
-      213: 5627218931278425185
-    second: SpiritAttack_28
-  - first:
-      213: 5458845139820027832
-    second: SpiritAttack_29
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -268,10 +232,10 @@ TextureImporter:
       name: SpiritAttack_0
       rect:
         serializedVersion: 2
-        x: 53
-        y: 357
-        width: 140
-        height: 13
+        x: 31
+        y: 229
+        width: 63
+        height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,10 +254,10 @@ TextureImporter:
       name: SpiritAttack_1
       rect:
         serializedVersion: 2
-        x: 199
-        y: 367
-        width: 9
-        height: 19
+        x: 134
+        y: 229
+        width: 88
+        height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -312,10 +276,10 @@ TextureImporter:
       name: SpiritAttack_2
       rect:
         serializedVersion: 2
-        x: 210
-        y: 367
-        width: 15
-        height: 19
+        x: 273
+        y: 229
+        width: 76
+        height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,10 +298,10 @@ TextureImporter:
       name: SpiritAttack_3
       rect:
         serializedVersion: 2
-        x: 237
-        y: 367
-        width: 14
-        height: 19
+        x: 315
+        y: 300
+        width: 9
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -356,10 +320,10 @@ TextureImporter:
       name: SpiritAttack_4
       rect:
         serializedVersion: 2
-        x: 253
-        y: 367
-        width: 15
-        height: 19
+        x: 375
+        y: 228
+        width: 88
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,10 +342,10 @@ TextureImporter:
       name: SpiritAttack_5
       rect:
         serializedVersion: 2
-        x: 269
-        y: 367
-        width: 16
-        height: 19
+        x: 497
+        y: 224
+        width: 87
+        height: 86
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -400,10 +364,10 @@ TextureImporter:
       name: SpiritAttack_6
       rect:
         serializedVersion: 2
-        x: 286
-        y: 367
-        width: 7
-        height: 19
+        x: 583
+        y: 270
+        width: 8
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -422,10 +386,10 @@ TextureImporter:
       name: SpiritAttack_7
       rect:
         serializedVersion: 2
-        x: 295
-        y: 367
-        width: 14
-        height: 19
+        x: 255
+        y: 254
+        width: 16
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -444,10 +408,10 @@ TextureImporter:
       name: SpiritAttack_8
       rect:
         serializedVersion: 2
-        x: 311
-        y: 367
-        width: 13
-        height: 19
+        x: 12
+        y: 72
+        width: 98
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -466,10 +430,10 @@ TextureImporter:
       name: SpiritAttack_9
       rect:
         serializedVersion: 2
-        x: 336
-        y: 367
-        width: 14
-        height: 19
+        x: 133
+        y: 72
+        width: 87
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -488,10 +452,10 @@ TextureImporter:
       name: SpiritAttack_10
       rect:
         serializedVersion: 2
-        x: 352
-        y: 367
-        width: 16
-        height: 19
+        x: 252
+        y: 97
+        width: 24
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -510,10 +474,10 @@ TextureImporter:
       name: SpiritAttack_11
       rect:
         serializedVersion: 2
-        x: 367
-        y: 367
-        width: 17
-        height: 19
+        x: 274
+        y: 38
+        width: 68
+        height: 124
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -532,10 +496,10 @@ TextureImporter:
       name: SpiritAttack_12
       rect:
         serializedVersion: 2
-        x: 384
-        y: 367
-        width: 15
-        height: 19
+        x: 344
+        y: 105
+        width: 8
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -554,10 +518,10 @@ TextureImporter:
       name: SpiritAttack_13
       rect:
         serializedVersion: 2
-        x: 400
-        y: 367
-        width: 14
-        height: 19
+        x: 373
+        y: 70
+        width: 91
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -576,10 +540,10 @@ TextureImporter:
       name: SpiritAttack_14
       rect:
         serializedVersion: 2
-        x: 419
-        y: 357
-        width: 140
-        height: 13
+        x: 495
+        y: 65
+        width: 92
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -598,10 +562,10 @@ TextureImporter:
       name: SpiritAttack_15
       rect:
         serializedVersion: 2
-        x: 230
-        y: 347
-        width: 10
-        height: 13
+        x: 338
+        y: 87
+        width: 8
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -620,10 +584,10 @@ TextureImporter:
       name: SpiritAttack_16
       rect:
         serializedVersion: 2
-        x: 239
-        y: 347
-        width: 11
-        height: 13
+        x: 583
+        y: 87
+        width: 10
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -642,10 +606,10 @@ TextureImporter:
       name: SpiritAttack_17
       rect:
         serializedVersion: 2
-        x: 250
-        y: 347
-        width: 11
-        height: 13
+        x: 425
+        y: 37
+        width: 6
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -656,270 +620,6 @@ TextureImporter:
       bones: []
       spriteID: 3008d40d6a9249480800000000000000
       internalID: -8893437567713837053
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpiritAttack_18
-      rect:
-        serializedVersion: 2
-        x: 266
-        y: 350
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f8ed3a7bd38d36120800000000000000
-      internalID: 2406004385531551375
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpiritAttack_19
-      rect:
-        serializedVersion: 2
-        x: 277
-        y: 347
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 77d5c862bd2ead960800000000000000
-      internalID: 7627658349777804663
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpiritAttack_20
-      rect:
-        serializedVersion: 2
-        x: 287
-        y: 347
-        width: 10
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 56e34ab52eed0d160800000000000000
-      internalID: 7048378480616291941
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpiritAttack_21
-      rect:
-        serializedVersion: 2
-        x: 297
-        y: 347
-        width: 10
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0ba27c3f813b9cc90800000000000000
-      internalID: -7148986013723448656
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpiritAttack_22
-      rect:
-        serializedVersion: 2
-        x: 305
-        y: 347
-        width: 10
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a31aaf450b7803830800000000000000
-      internalID: 4048885256415781178
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpiritAttack_23
-      rect:
-        serializedVersion: 2
-        x: 315
-        y: 347
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e54caf19e43766a20800000000000000
-      internalID: 3055256178511234142
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpiritAttack_24
-      rect:
-        serializedVersion: 2
-        x: 330
-        y: 350
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 36b086f1f236d6e40800000000000000
-      internalID: 5651282161461365603
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpiritAttack_25
-      rect:
-        serializedVersion: 2
-        x: 341
-        y: 347
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c14547a7a2cb9d140800000000000000
-      internalID: 4745030573040620572
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpiritAttack_26
-      rect:
-        serializedVersion: 2
-        x: 351
-        y: 347
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 45320d878db056b90800000000000000
-      internalID: -7249375000815197356
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpiritAttack_27
-      rect:
-        serializedVersion: 2
-        x: 362
-        y: 347
-        width: 10
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f73eb957e2e09d720800000000000000
-      internalID: 2871341830129836927
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpiritAttack_28
-      rect:
-        serializedVersion: 2
-        x: 371
-        y: 347
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 16c2430cdc5e71e40800000000000000
-      internalID: 5627218931278425185
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SpiritAttack_29
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 26
-        width: 612
-        height: 311
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8bf17d28bb6b1cb40800000000000000
-      internalID: 5458845139820027832
       vertices: []
       indices: 
       edges: []
@@ -948,19 +648,7 @@ TextureImporter:
       SpiritAttack_15: 3446565178253194839
       SpiritAttack_16: -7523140985020771070
       SpiritAttack_17: -8893437567713837053
-      SpiritAttack_18: 2406004385531551375
-      SpiritAttack_19: 7627658349777804663
       SpiritAttack_2: 1543900568168721793
-      SpiritAttack_20: 7048378480616291941
-      SpiritAttack_21: -7148986013723448656
-      SpiritAttack_22: 4048885256415781178
-      SpiritAttack_23: 3055256178511234142
-      SpiritAttack_24: 5651282161461365603
-      SpiritAttack_25: 4745030573040620572
-      SpiritAttack_26: -7249375000815197356
-      SpiritAttack_27: 2871341830129836927
-      SpiritAttack_28: 5627218931278425185
-      SpiritAttack_29: 5458845139820027832
       SpiritAttack_3: 704643661967496017
       SpiritAttack_4: 8018628158054700175
       SpiritAttack_5: -2274666594308436602
