@@ -659,6 +659,7 @@ GameObject:
   - component: {fileID: 1247384052}
   - component: {fileID: 1247384051}
   - component: {fileID: 1247384054}
+  - component: {fileID: 1247384055}
   m_Layer: 0
   m_Name: Spirit
   m_TagString: Untagged
@@ -799,6 +800,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   maxHealth: 20
+--- !u!114 &1247384055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247384050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 297a5181c11e2034c9cae1dafc3dc789, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spirit
 --- !u!1 &1325604258
 GameObject:
   m_ObjectHideFlags: 0
