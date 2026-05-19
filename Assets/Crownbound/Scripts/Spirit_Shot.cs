@@ -30,7 +30,7 @@ public class Spirit_Shot : MonoBehaviour
         // Damage player
         if (collision.gameObject.CompareTag("Player"))
         {
-            PlayerHealth health = collision.gameObject.GetComponent<PlayerHealth>();
+            Character_Script health = collision.gameObject.GetComponent<Character_Script>();
             if (health != null)
             {
                 health.TakeDamage(damage);
