@@ -3,10 +3,15 @@ using UnityEngine;
 public class Spirit_Shot : MonoBehaviour
 {
     public float damage = 20f;
-
+    private float lifetime = 20f;
     public float speed = 10f;
 
     private Vector2 moveDirection;
+
+    void Start() 
+    {
+        Destroy(gameObject,lifetime);    
+    }
 
     // Called when projectile is spawned
     public void SetTarget(Vector2 targetPosition)
@@ -37,5 +42,11 @@ public class Spirit_Shot : MonoBehaviour
             }
         }
         Destroy(gameObject);
+        
+    }
+
+    private void OnBecameInvisible() 
+    {
+        Destroy(gameObject);    
     }
 }

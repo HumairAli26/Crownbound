@@ -4,8 +4,14 @@ public class Projectile_Behaviour : MonoBehaviour
 {
     private float damage = 20f;
     public float speed = 20f;
+    private float lifetime = 20f;
 
     private float direction;
+
+    void Start() 
+    {
+        Destroy(gameObject,lifetime);    
+    }
 
     public void SetDirection(float dir)
     {
@@ -32,5 +38,10 @@ public class Projectile_Behaviour : MonoBehaviour
             }
         }
         Destroy(gameObject);
+    }
+
+    private void OnBecameInvisible() 
+    {
+        Destroy(gameObject);    
     }
 }
