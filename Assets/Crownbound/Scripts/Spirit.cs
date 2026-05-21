@@ -34,13 +34,11 @@ public class Spirit : MonoBehaviour
                 Vector3.right *
                 moveSpeed *
                 Time.deltaTime;
-
             // Reached right limit
             if (transform.position.x >=
                 startPosition.x + moveDistance)
             {
                 movingRight = false;
-
                 Flip();
             }
         }
@@ -50,13 +48,11 @@ public class Spirit : MonoBehaviour
                 Vector3.left *
                 moveSpeed *
                 Time.deltaTime;
-
             // Reached left limit
             if (transform.position.x <=
                 startPosition.x - moveDistance)
             {
                 movingRight = true;
-
                 Flip();
             }
         }
@@ -66,14 +62,11 @@ public class Spirit : MonoBehaviour
     {
         if (player == null)
             return;
-
         attackTimer += Time.deltaTime;
-
         // Shoot after cooldown
         if (attackTimer >= attackCooldown)
         {
             attackTimer = 0;
-
             ShootProjectile();
         }
     }
@@ -86,16 +79,13 @@ public class Spirit : MonoBehaviour
                 firePoint.position,
                 Quaternion.identity
             );
-
         shot.SetTarget(player.position);
     }
 
     void Flip()
     {
         Vector3 scale = transform.localScale;
-
         scale.x *= -1;
-
         transform.localScale = scale;
     }
 }

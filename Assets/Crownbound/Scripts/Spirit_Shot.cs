@@ -41,8 +41,7 @@ public class Spirit_Shot : MonoBehaviour
                 health.TakeDamage(damage);
             }
         }
-        Destroy(gameObject);
-        
+        Destroy(gameObject);        
     }
 
     private void OnBecameInvisible() 
