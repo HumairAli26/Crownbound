@@ -244,7 +244,7 @@ MonoBehaviour:
   moveSpeed: 3
   attackDistance: 3.5
   jumpForce: 16
-  wallCheckDistance: 0.5
+  wallCheckDistance: 0.7
   groundCheckRadius: 0.5
   groundLayer:
     serializedVersion: 2

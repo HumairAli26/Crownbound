@@ -436,6 +436,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2_Pane_Floor
       objectReference: {fileID: 0}
+    - target: {fileID: 7520712091771891791, guid: 5453fe9a4c0d5974184bde2bcce9ed3b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
